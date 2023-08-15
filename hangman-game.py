@@ -96,9 +96,11 @@ while True:
     print("You've already used the following letters: ", letterPicked)
     continue
   elif counter < 6 and allLetters == True:
+    print()
     print("YOU WON!")
     break
   elif counter == 6:
+    print()
     print(f"You lose! The word was: {wordChosen}")
     print("""
         +---+
