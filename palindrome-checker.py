@@ -11,6 +11,6 @@ def reverse(word):
       print("This word is not a palindrome!")
   
   else:
-    print(f"The word is a palindrome!")
+    print("The word is a palindrome!")
 
 reverse(word)
