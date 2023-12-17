@@ -1,0 +1,3 @@
+stringa = "frutto"
+print(stringa[:])
+
