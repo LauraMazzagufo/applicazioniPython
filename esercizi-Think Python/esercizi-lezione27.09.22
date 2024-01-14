@@ -1,0 +1,67 @@
+# esercizi: http://www.andreamarino.it/python/thinkcspy/SimplePythonData/Exercises.html
+
+
+# Area del cerchio: 3,14 * r al quadrato.
+# Scrivere un programma che calcola l’area del cerchio. Chiedere all’utente il raggio e stampare la risposta.
+r = int(input("inserisci il raggio: > "))
+area = 3.14 * (r * r)
+print("Area del cerchio: ", area)
+
+# Chiedere all’utente l’ora (specificando di inserire solo l’ora) e poi chiedere fra quante ore deve suonare la
+# sveglia. Il programma deve stampare che ore saranno quando la sveglia suonerà.
+
+ora_corrente = int(input("Ora corrente: > "))
+ore_sveglia = int(input("Tra quante ore suona la sveglia? > "))
+ora_sveglia = ora_corrente + ore_sveglia
+if ora_sveglia >= 24:
+    ora_sveglia -= 24
+# soluzione consigliata: #############################################
+# hours = ora_corrente + ore_sveglia
+# ora_sveglia = hours % 24
+######################################################################
+print("La sveglia suonerà alle: ", ora_sveglia)
+
+# Data la formula per il calcolo del saldo finale a partire dagli interessi (fornita online), scrivere un programma
+# Python che assegna il saldo iniziale 10000 a una variabile P, assegna a n il valore 12 e assegna a r l’interesse
+# del 8% (0.08). Chiedere all’utente il numero di anni, t. Calcolare e stampare l’ammontare finale dopo t anni.
+p = 10000
+n = 12
+r = 0.08
+t = int(input("Inserisci il numero di anni: > "))
+
+a = p * (1 + (r / n)) ** (n * t)
+a_arrotondato = round(a, 2)
+print("L'ammontare finale è: ", a_arrotondato)
+
+# Scrivere un programma che calcola l’area di un rettangolo. Chiedere all’utente la base e l’altezza. Stampare la
+# risposta
+
+b = int(input("Base del rettangolo: "))
+h = int(input("Altezza del rettangolo: "))
+area = b * h
+print("Area del rettangolo: ", area)
+
+# Scrivere un programma che converte gradi celsius in gradi fahrenheit.
+# Formula: gradi_farenheit = (gradi_celsius × 9/5) + 32
+gradi_celsius = int(input("Inserisci la temperatura in gradi Celsius: > "))
+gradi_f = (gradi_celsius * (9 / 5)) + 32
+print("La temperatura in gradi Farenheit è ", gradi_f)
+
+# Scrivere un programma che converte gradi fahrenheit in gradi celsius.
+# Formula: gradi_celsius = (gradi_farenheit - 32) / 1.8
+gradi_f = float(input("Inserisci la temperatura in gradi Farenheit: > "))
+gradi_c = round(((gradi_f - 32) / (1.8)), 2)
+print("La temperatura in gradi Celsius è ", gradi_c)
+
+
+# Scrivere un programma che legge tre reali x,y,z (ne chiede uno alla volta) e ne stampa il quadrato.
+def stampa_quadrato(n):
+    return n * n
+
+
+x = float(input("Inserisci un numero reale: > "))
+y = float(input("Inserisci un numero reale: > "))
+z = float(input("Inserisci un numero reale: > "))
+print("Il quadrato del numero ", x, "è ", stampa_quadrato(x))
+print("Il quadrato del numero ", y, "è ", stampa_quadrato(y))
+print("Il quadrato del numero ", z, "è ", stampa_quadrato(z))
