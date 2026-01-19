@@ -1,0 +1,1319 @@
+### File Moodle XML
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- DOMANDA 1 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 1</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale di questi tag XML è corretto?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>&lt;Mittente&gt;</text></answer>
+    <answer fraction="0"><text>&lt;1nome&gt;</text></answer>
+    <answer fraction="0"><text>&lt;place!&gt;</text></answer>
+    <answer fraction="0"><text>&lt;tag aperto&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 2 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 2</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale coppia di tag è correttamente chiusa?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>&lt;paragraph&gt;testo&lt;/paragrafo&gt;</text></answer>
+    <answer fraction="0"><text>&lt;data&gt;25 Nov:e</text></answer>
+    <answer fraction="100"><text>&lt;persona&gt;Bellini&lt;/persona&gt;</text></answer>
+    <answer fraction="0"><text>&lt;city&gt;Milano&lt;city&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 3 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 3</text></name>
+    <questiontext format="html">
+      <text><![CDATA[In XML, gli attributi devono sempre…]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>essere scritti in maiuscolo</text></answer>
+    <answer fraction="100"><text>essere racchiusi tra virgolette</text></answer>
+    <answer fraction="0"><text>iniziare con @</text></answer>
+    <answer fraction="0"><text>avere lo stesso nome del tag</text></answer>
+  </question>
+
+  <!-- DOMANDA 4 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 4</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale dei seguenti esempi è ben formato?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>&lt;date iso=1874-11-25&gt;25 Nov&lt;/date&gt;</text></answer>
+    <answer fraction="0"><text>&lt;letter&gt;&lt;sender&gt;Bellini&lt;/sender&gt;</text></answer>
+    <answer fraction="0"><text>&lt;city&gt;"Milano"&lt;/city&gt;</text></answer>
+    <answer fraction="100"><text>&lt;place&gt;Milano&lt;/place&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 5 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 5</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale errore contiene questo frammento? &lt;person role=cantante&gt;Mad.a Lewis&lt;/person&gt;]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>Tag di chiusura mancante</text></answer>
+    <answer fraction="100"><text>Attributo senza virgolette</text></answer>
+    <answer fraction="0"><text>Annidamento errato</text></answer>
+    <answer fraction="0"><text>Tag di apertura non valido</text></answer>
+  </question>
+
+  <!-- DOMANDA 6 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 6</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quali errori contiene il seguente frammento XML?
+
+&lt;letter id="L001"&gt; &lt;metadata&gt; &lt;date iso="1874-11-25"&gt;25 Nov:e&lt;/date&gt; &lt;placeName&gt;Milano&lt;placeName&gt; &lt;/metadata&gt; &lt;/letter&gt;]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>Un attributo senza virgolette e un tag radice mancante</text></answer>
+    <answer fraction="0"><text>Un tag non chiuso e un elemento non annidato correttamente</text></answer>
+    <answer fraction="100"><text>Un tag mal formattato e un attributo duplicato</text></answer>
+    <answer fraction="0"><text>Nessun errore: XML valido</text></answer>
+  </question>
+
+  <!-- DOMANDA 7 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 7</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Scegli la versione XML corretta tra le seguenti:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>&lt;letter&gt;&lt;metadata&gt;&lt;date when="1874-11-25"&gt;&lt;/metadata&gt;&lt;/letter&gt;</text></answer>
+    <answer fraction="100"><text>&lt;letter&gt;&lt;metadata&gt;&lt;date when="1874-11-25"&gt;&lt;/date&gt;&lt;/metadata&gt;&lt;/letter&gt;</text></answer>
+    <answer fraction="0"><text>&lt;letter&gt;&lt;metadata&gt;&lt;date when="1874-11-25"&gt;25 novembre 1874&lt;/metadata&gt;&lt;/letter&gt;</text></answer>
+    <answer fraction="0"><text>&lt;letter&gt;&lt;metadata&gt;&lt;date when="1874-11-25"&gt;25 novembre 1874&lt;/date&gt;&lt;/letter&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 8 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 8</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Cosa accade quando un file XML non è ben formato?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>Il file XML non può essere aperto da un editor XML</text></answer>
+    <answer fraction="0"><text>Funziona comunque anche se contiene errori</text></answer>
+    <answer fraction="100"><text>I programmi che leggono XML non lo interpretano e restituiscono errore</text></answer>
+    <answer fraction="0"><text>Cambia solo la colorazione dei tag</text></answer>
+  </question>
+
+  <!-- DOMANDA 9 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 9</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale di questi elementi è l'elemento più generale che può contenere tutti gli altri?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>&lt;placeName&gt;</text></answer>
+    <answer fraction="0"><text>&lt;persName&gt;</text></answer>
+    <answer fraction="100"><text>&lt;person&gt;</text></answer>
+    <answer fraction="0"><text>&lt;name&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 10 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 10</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale attributo TEI assegna un identificatore univoco?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>id</text></answer>
+    <answer fraction="0"><text>ref</text></answer>
+    <answer fraction="0"><text>key</text></answer>
+    <answer fraction="100"><text>xml:id</text></answer>
+  </question>
+
+  <!-- DOMANDA 11 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 11</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale elemento TEI contiene i metadati del testo?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>&lt;text&gt;</text></answer>
+    <answer fraction="0"><text>&lt;body&gt;</text></answer>
+    <answer fraction="100"><text>&lt;teiHeader&gt;</text></answer>
+    <answer fraction="0"><text>&lt;front&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 12 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 12</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale elemento TEI codifica un luogo?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>&lt;geo&gt;</text></answer>
+    <answer fraction="0"><text>&lt;location&gt;</text></answer>
+    <answer fraction="100"><text>&lt;placeName&gt;</text></answer>
+    <answer fraction="0"><text>&lt;city&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 13 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 13</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale elemento TEI rappresenta una divisione testuale?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>&lt;section&gt;</text></answer>
+    <answer fraction="100"><text>&lt;div&gt;</text></answer>
+    <answer fraction="0"><text>&lt;unit&gt;</text></answer>
+    <answer fraction="0"><text>&lt;part&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 14 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 14</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale elemento TEI codifica un paragrafo?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>&lt;paragraph&gt;</text></answer>
+    <answer fraction="0"><text>&lt;para&gt;</text></answer>
+    <answer fraction="100"><text>&lt;p&gt;</text></answer>
+    <answer fraction="0"><text>&lt;line&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 15 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 15</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale elemento TEI codifica una data?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>&lt;time&gt;</text></answer>
+    <answer fraction="0"><text>&lt;when&gt;</text></answer>
+    <answer fraction="100"><text>&lt;date&gt;</text></answer>
+    <answer fraction="0"><text>&lt;event&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 16 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 16</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale attributo TEI collega un'entità a una risorsa?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>type</text></answer>
+    <answer fraction="0"><text>key</text></answer>
+    <answer fraction="100"><text>ref</text></answer>
+    <answer fraction="0"><text>subtype</text></answer>
+  </question>
+
+  <!-- DOMANDA 17 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 17</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale elemento TEI contiene il corpo del testo?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>&lt;front&gt;</text></answer>
+    <answer fraction="0"><text>&lt;back&gt;</text></answer>
+    <answer fraction="100"><text>&lt;body&gt;</text></answer>
+    <answer fraction="0"><text>&lt;group&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 18 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 18</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale elemento TEI evidenzia una porzione di testo?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>&lt;em&gt;</text></answer>
+    <answer fraction="100"><text>&lt;hi&gt;</text></answer>
+    <answer fraction="0"><text>&lt;mark&gt;</text></answer>
+    <answer fraction="0"><text>&lt;strong&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 19 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 19</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale elemento TEI codifica una persona?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>&lt;placeName&gt;</text></answer>
+    <answer fraction="0"><text>&lt;persName&gt;</text></answer>
+    <answer fraction="100"><text>&lt;person&gt;</text></answer>
+    <answer fraction="0"><text>&lt;name&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 20 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 20</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale elemento TEI raccoglie più persone in un elenco strutturato?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>&lt;listPerson&gt;</text></answer>
+    <answer fraction="0"><text>&lt;persName&gt;</text></answer>
+    <answer fraction="0"><text>&lt;personGrp&gt;</text></answer>
+    <answer fraction="0"><text>&lt;group&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 21 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 21</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale elemento TEI raccoglie più luoghi in un elenco strutturato?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>&lt;listPlace&gt;</text></answer>
+    <answer fraction="0"><text>&lt;placeName&gt;</text></answer>
+    <answer fraction="0"><text>&lt;geo&gt;</text></answer>
+    <answer fraction="0"><text>&lt;location&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 22 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 22</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale elemento TEI codifica il titolo di un'opera o di una sezione?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>&lt;title&gt;</text></answer>
+    <answer fraction="0"><text>&lt;head&gt;</text></answer>
+    <answer fraction="0"><text>&lt;name&gt;</text></answer>
+    <answer fraction="0"><text>&lt;label&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 23 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 23</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale attributo TEI viene spesso usato per specificare il tipo di una divisione (&lt;div&gt;)?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>type</text></answer>
+    <answer fraction="0"><text>subtype</text></answer>
+    <answer fraction="0"><text>rend</text></answer>
+    <answer fraction="0"><text>role</text></answer>
+  </question>
+
+  <!-- DOMANDA 24 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 24</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale elemento TEI codifica una nota (ad esempio a piè di pagina)?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>&lt;note&gt;</text></answer>
+    <answer fraction="0"><text>&lt;footnote&gt;</text></answer>
+    <answer fraction="0"><text>&lt;comment&gt;</text></answer>
+    <answer fraction="0"><text>&lt;ref&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 25 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 25</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale elemento TEI rappresenta una lista di elementi?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>&lt;list&gt;</text></answer>
+    <answer fraction="0"><text>&lt;items&gt;</text></answer>
+    <answer fraction="0"><text>&lt;ul&gt;</text></answer>
+    <answer fraction="0"><text>&lt;seq&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 26 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 26</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale elemento TEI rappresenta una voce di una lista?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>&lt;item&gt;</text></answer>
+    <answer fraction="0"><text>&lt;li&gt;</text></answer>
+    <answer fraction="0"><text>&lt;entry&gt;</text></answer>
+    <answer fraction="0"><text>&lt;row&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 27 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 27</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale sottoelemento di &lt;teiHeader&gt; descrive le informazioni di pubblicazione?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>&lt;fileDesc&gt;</text></answer>
+    <answer fraction="100"><text>&lt;publicationStmt&gt;</text></answer>
+    <answer fraction="0"><text>&lt;sourceDesc&gt;</text></answer>
+    <answer fraction="0"><text>&lt;profileDesc&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 28 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 28</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale sottoelemento di &lt;teiHeader&gt; descrive la fonte del testo?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>&lt;encodingDesc&gt;</text></answer>
+    <answer fraction="0"><text>&lt;profileDesc&gt;</text></answer>
+    <answer fraction="100"><text>&lt;sourceDesc&gt;</text></answer>
+    <answer fraction="0"><text>&lt;revisionDesc&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 29 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 29</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale attributo TEI (e XML) indica la lingua del contenuto di un elemento?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>xml:lang</text></answer>
+    <answer fraction="0"><text>lang</text></answer>
+    <answer fraction="0"><text>language</text></answer>
+    <answer fraction="0"><text>xml:language</text></answer>
+  </question>
+
+  <!-- DOMANDA 30 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 30</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale elemento TEI codifica una citazione nel testo?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>&lt;q&gt;</text></answer>
+    <answer fraction="0"><text>&lt;quote&gt;</text></answer>
+    <answer fraction="0"><text>&lt;cit&gt;</text></answer>
+    <answer fraction="0"><text>&lt;said&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 31 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 31</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale elemento TEI rappresenta il titolo di una sezione all'interno del testo?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>&lt;head&gt;</text></answer>
+    <answer fraction="0"><text>&lt;title&gt;</text></answer>
+    <answer fraction="0"><text>&lt;label&gt;</text></answer>
+    <answer fraction="0"><text>&lt;name&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 32 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 32</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale elemento TEI codifica un singolo verso poetico?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>&lt;l&gt;</text></answer>
+    <answer fraction="0"><text>&lt;line&gt;</text></answer>
+    <answer fraction="0"><text>&lt;verse&gt;</text></answer>
+    <answer fraction="0"><text>&lt;v&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 33 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 33</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale elemento TEI raggruppa più versi poetici (una strofa)?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>&lt;lg&gt;</text></answer>
+    <answer fraction="0"><text>&lt;stanza&gt;</text></answer>
+    <answer fraction="0"><text>&lt;group&gt;</text></answer>
+    <answer fraction="0"><text>&lt;div type="stanza"&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 34 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 34</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale elemento TEI segnala una parola in lingua straniera rispetto al contesto?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>&lt;foreign&gt;</text></answer>
+    <answer fraction="0"><text>&lt;term&gt;</text></answer>
+    <answer fraction="0"><text>&lt;hi&gt;</text></answer>
+    <answer fraction="0"><text>&lt;lang&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 35 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 35</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale elemento TEI codifica un'abbreviazione così come appare nel testo?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>&lt;abbr&gt;</text></answer>
+    <answer fraction="0"><text>&lt;expan&gt;</text></answer>
+    <answer fraction="0"><text>&lt;choice&gt;</text></answer>
+    <answer fraction="0"><text>&lt;seg&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 36 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 36</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale elemento TEI contiene lo scioglimento di un'abbreviazione?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>&lt;abbr&gt;</text></answer>
+    <answer fraction="100"><text>&lt;expan&gt;</text></answer>
+    <answer fraction="0"><text>&lt;note&gt;</text></answer>
+    <answer fraction="0"><text>&lt;ex&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 37 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 37</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale elemento TEI codifica il nome di un'organizzazione?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>&lt;org&gt;</text></answer>
+    <answer fraction="100"><text>&lt;orgName&gt;</text></answer>
+    <answer fraction="0"><text>&lt;name&gt;</text></answer>
+    <answer fraction="0"><text>&lt;resp&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 38 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 38</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale elemento TEI codifica un evento (ad esempio una battaglia, un concerto)?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>&lt;event&gt;</text></answer>
+    <answer fraction="0"><text>&lt;incident&gt;</text></answer>
+    <answer fraction="0"><text>&lt;occurrence&gt;</text></answer>
+    <answer fraction="0"><text>&lt;happening&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 39 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 39</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale elemento TEI codifica un riferimento bibliografico semplice?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>&lt;bibl&gt;</text></answer>
+    <answer fraction="0"><text>&lt;ref&gt;</text></answer>
+    <answer fraction="0"><text>&lt;cit&gt;</text></answer>
+    <answer fraction="0"><text>&lt;note&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 40 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 40</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale elemento TEI codifica una citazione bibliografica strutturata (con autore, titolo, ecc.)?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>&lt;biblStruct&gt;</text></answer>
+    <answer fraction="0"><text>&lt;biblFull&gt;</text></answer>
+    <answer fraction="0"><text>&lt;listBibl&gt;</text></answer>
+    <answer fraction="0"><text>&lt;sourceDesc&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 41 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 41</text></name>
+    <questiontext format="html">
+      <text><![CDATA[In XML, quale di queste affermazioni è sempre vera per un documento ben formato?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Deve avere un solo elemento radice</text></answer>
+    <answer fraction="0"><text>Deve contenere almeno un attributo</text></answer>
+    <answer fraction="0"><text>Deve iniziare con un commento</text></answer>
+    <answer fraction="0"><text>Deve usare solo tag TEI</text></answer>
+  </question>
+
+  <!-- DOMANDA 42 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 42</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale di questi è un commento XML scritto correttamente?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>&lt;!-- questo è un commento --&gt;</text></answer>
+    <answer fraction="0"><text>&lt;! questo è un commento &gt;</text></answer>
+    <answer fraction="0"><text>&lt;comment&gt;questo è un commento&lt;/comment&gt;</text></answer>
+    <answer fraction="0"><text>// questo è un commento</text></answer>
+  </question>
+
+  <!-- DOMANDA 43 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 43</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale di questi caratteri deve essere sempre "escape-ato" (sostituito con un'entità) nel contenuto testuale XML?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>&amp;</text></answer>
+    <answer fraction="0"><text>a</text></answer>
+    <answer fraction="0"><text>_</text></answer>
+    <answer fraction="0"><text>-</text></answer>
+  </question>
+
+  <!-- DOMANDA 44 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 44</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Cosa accade se in un elemento XML sono presenti due attributi con lo stesso nome?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Il documento non è ben formato</text></answer>
+    <answer fraction="0"><text>Viene usato solo il primo attributo</text></answer>
+    <answer fraction="0"><text>Viene usato solo l'ultimo attributo</text></answer>
+    <answer fraction="0"><text>È consentito solo se i valori coincidono</text></answer>
+  </question>
+
+  <!-- DOMANDA 45 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 45</text></name>
+    <questiontext format="html">
+      <text><![CDATA[I nomi dei tag XML sono sensibili alle maiuscole/minuscole (case-sensitive)?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Sì, &lt;Tag&gt; e &lt;tag&gt; sono diversi</text></answer>
+    <answer fraction="0"><text>No, &lt;Tag&gt; e &lt;tag&gt; sono equivalenti</text></answer>
+    <answer fraction="0"><text>Dipende dal parser</text></answer>
+    <answer fraction="0"><text>Solo gli attributi sono case-sensitive</text></answer>
+  </question>
+
+  <!-- DOMANDA 46 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 46</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale dichiarazione XML è corretta per indicare versione ed encoding?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>&lt;?xml version="1.0" encoding="UTF-8"?&gt;</text></answer>
+    <answer fraction="0"><text>&lt;xml version="1.0" charset="UTF-8"&gt;</text></answer>
+    <answer fraction="0"><text>&lt;?xml 1.0 UTF-8 ?&gt;</text></answer>
+    <answer fraction="0"><text>&lt;?xml encoding="UTF-8"?&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 47 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 47</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Come si rappresenta correttamente un elemento vuoto in XML?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>&lt;tag/&gt;</text></answer>
+    <answer fraction="0"><text>&lt;tag&gt;&lt;/&gt;</text></answer>
+    <answer fraction="0"><text>&lt;tag&gt;&lt;/tag/&gt;</text></answer>
+    <answer fraction="0"><text>&lt;tag&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 48 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 48</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale elemento TEI racchiude l'intero documento TEI (header e testo)?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>&lt;TEI&gt;</text></answer>
+    <answer fraction="0"><text>&lt;text&gt;</text></answer>
+    <answer fraction="0"><text>&lt;teiHeader&gt;</text></answer>
+    <answer fraction="0"><text>&lt;body&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 49 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 49</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale elemento TEI contiene uno o più testi (ad esempio in un'edizione con più opere)?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>&lt;text&gt;</text></answer>
+    <answer fraction="100"><text>&lt;group&gt;</text></answer>
+    <answer fraction="0"><text>&lt;body&gt;</text></answer>
+    <answer fraction="0"><text>&lt;div&gt;</text></answer>
+  </question>
+
+  <!-- DOMANDA 50 -->
+  <question type="multichoice">
+    <name><text>DOMANDA 50</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quale elemento TEI può essere usato per costruire un indice (ad esempio di persone o luoghi)?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>&lt;index&gt;</text></answer>
+    <answer fraction="0"><text>&lt;list&gt;</text></answer>
+    <answer fraction="0"><text>&lt;table&gt;</text></answer>
+    <answer fraction="0"><text>&lt;note&gt;</text></answer>
+  </question>
+
+</quiz>
+```
+
+---
+
+### File TXT con tutti i 50 quiz
+
+```txt
+DOMANDA 1
+Quale di questi tag XML è corretto?
+A. <Mittente>
+B. <1nome>
+C. <place!>
+D. <tag aperto>
+Risposta corretta: A
+
+DOMANDA 2
+Quale coppia di tag è correttamente chiusa?
+A. <paragraph>testo</paragrafo>
+B. <data>25 Nov:e
+C. <persona>Bellini</persona>
+D. <city>Milano<city>
+Risposta corretta: C
+
+DOMANDA 3
+In XML, gli attributi devono sempre…
+A. essere scritti in maiuscolo
+B. essere racchiusi tra virgolette
+C. iniziare con @
+D. avere lo stesso nome del tag
+Risposta corretta: B
+
+DOMANDA 4
+Quale dei seguenti esempi è ben formato?
+A. <date iso=1874-11-25>25 Nov</date>
+B. <letter><sender>Bellini</sender>
+C. <city>"Milano"</city>
+D. <place>Milano</place>
+Risposta corretta: D
+
+DOMANDA 5
+Quale errore contiene questo frammento? <person role=cantante>Mad.a Lewis</person>
+A. Tag di chiusura mancante
+B. Attributo senza virgolette
+C. Annidamento errato
+D. Tag di apertura non valido
+Risposta corretta: B
+
+DOMANDA 6
+Quali errori contiene il seguente frammento XML?
+
+<letter id="L001"> <metadata> <date iso="1874-11-25">25 Nov:e</date> <placeName>Milano<placeName> </metadata> </letter>
+
+A. Un attributo senza virgolette e un tag radice mancante
+B. Un tag non chiuso e un elemento non annidato correttamente
+C. Un tag mal formattato e un attributo duplicato
+D. Nessun errore: XML valido
+Risposta corretta: C
+
+DOMANDA 7
+Scegli la versione XML corretta tra le seguenti:
+A. <letter><metadata><date when="1874-11-25"></metadata></letter>
+B. <letter><metadata><date when="1874-11-25"></date></metadata></letter>
+C. <letter><metadata><date when="1874-11-25">25 novembre 1874</metadata></letter>
+D. <letter><metadata><date when="1874-11-25">25 novembre 1874</date></letter>
+Risposta corretta: B
+
+DOMANDA 8
+Cosa accade quando un file XML non è ben formato?
+A. Il file XML non può essere aperto da un editor XML
+B. Funziona comunque anche se contiene errori
+C. I programmi che leggono XML non lo interpretano e restituiscono errore
+D. Cambia solo la colorazione dei tag
+Risposta corretta: C
+
+DOMANDA 9
+Quale di questi elementi è l'elemento più generale che può contenere tutti gli altri:?
+A. <placeName>
+B. <persName>
+C. <person>
+D. <name>
+Risposta corretta: C
+
+DOMANDA 10
+Quale attributo TEI assegna un identificatore univoco?
+A. id
+B. ref
+C. key
+D. xml:id
+Risposta corretta: D
+
+DOMANDA 11
+Quale elemento TEI contiene i metadati del testo?
+A. <text>
+B. <body>
+C. <teiHeader>
+D. <front>
+Risposta corretta: C
+
+DOMANDA 12
+Quale elemento TEI codifica un luogo?
+A. <geo>
+B. <location>
+C. <placeName>
+D. <city>
+Risposta corretta: C
+
+DOMANDA 13
+Quale elemento TEI rappresenta una divisione testuale?
+A. <section>
+B. <div>
+C. <unit>
+D. <part>
+Risposta corretta: B
+
+DOMANDA 14
+Quale elemento TEI codifica un paragrafo?
+A. <paragraph>
+B. <para>
+C. <p>
+D. <line>
+Risposta corretta: C
+
+DOMANDA 15
+Quale elemento TEI codifica una data?
+A. <time>
+B. <when>
+C. <date>
+D. <event>
+Risposta corretta: C
+
+DOMANDA 16
+Quale attributo TEI collega un'entità a una risorsa?
+A. type
+B. key
+C. ref
+D. subtype
+Risposta corretta: C
+
+DOMANDA 17
+Quale elemento TEI contiene il corpo del testo?
+A. <front>
+B. <back>
+C. <body>
+D. <group>
+Risposta corretta: C
+
+DOMANDA 18
+Quale elemento TEI evidenzia una porzione di testo?
+A. <em>
+B. <hi>
+C. <mark>
+D. <strong>
+Risposta corretta: B
+
+DOMANDA 19
+Quale elemento TEI codifica una persona?
+A. <placeName>
+B. <persName>
+C. <person>
+D. <name>
+Risposta corretta: C
+
+DOMANDA 20
+Quale elemento TEI raccoglie più persone in un elenco strutturato?
+A. <listPerson>
+B. <persName>
+C. <personGrp>
+D. <group>
+Risposta corretta: A
+
+DOMANDA 21
+Quale elemento TEI raccoglie più luoghi in un elenco strutturato?
+A. <listPlace>
+B. <placeName>
+C. <geo>
+D. <location>
+Risposta corretta: A
+
+DOMANDA 22
+Quale elemento TEI codifica il titolo di un'opera o di una sezione?
+A. <title>
+B. <head>
+C. <name>
+D. <label>
+Risposta corretta: A
+
+DOMANDA 23
+Quale attributo TEI viene spesso usato per specificare il tipo di una divisione (<div>)?
+A. type
+B. subtype
+C. rend
+D. role
+Risposta corretta: A
+
+DOMANDA 24
+Quale elemento TEI codifica una nota (ad esempio a piè di pagina)?
+A. <note>
+B. <footnote>
+C. <comment>
+D. <ref>
+Risposta corretta: A
+
+DOMANDA 25
+Quale elemento TEI rappresenta una lista di elementi?
+A. <list>
+B. <items>
+C. <ul>
+D. <seq>
+Risposta corretta: A
+
+DOMANDA 26
+Quale elemento TEI rappresenta una voce di una lista?
+A. <item>
+B. <li>
+C. <entry>
+D. <row>
+Risposta corretta: A
+
+DOMANDA 27
+Quale sottoelemento di <teiHeader> descrive le informazioni di pubblicazione?
+A. <fileDesc>
+B. <publicationStmt>
+C. <sourceDesc>
+D. <profileDesc>
+Risposta corretta: B
+
+DOMANDA 28
+Quale sottoelemento di <teiHeader> descrive la fonte del testo?
+A. <encodingDesc>
+B. <profileDesc>
+C. <sourceDesc>
+D. <revisionDesc>
+Risposta corretta: C
+
+DOMANDA 29
+Quale attributo TEI (e XML) indica la lingua del contenuto di un elemento?
+A. xml:lang
+B. lang
+C. language
+D. xml:language
+Risposta corretta: A
+
+DOMANDA 30
+Quale elemento TEI codifica una citazione nel testo?
+A. <q>
+B. <quote>
+C. <cit>
+D. <said>
+Risposta corretta: A
+
+DOMANDA 31
+Quale elemento TEI rappresenta il titolo di una sezione all'interno del testo?
+A. <head>
+B. <title>
+C. <label>
+D. <name>
+Risposta corretta: A
+
+DOMANDA 32
+Quale elemento TEI codifica un singolo verso poetico?
+A. <l>
+B. <line>
+C. <verse>
+D. <v>
+Risposta corretta: A
+
+DOMANDA 33
+Quale elemento TEI raggruppa più versi poetici (una strofa)?
+A. <lg>
+B. <stanza>
+C. <group>
+D. <div type="stanza">
+Risposta corretta: A
+
+DOMANDA 34
+Quale elemento TEI segnala una parola in lingua straniera rispetto al contesto?
+A. <foreign>
+B. <term>
+C. <hi>
+D. <lang>
+Risposta corretta: A
+
+DOMANDA 35
+Quale elemento TEI codifica un'abbreviazione così come appare nel testo?
+A. <abbr>
+B. <expan>
+C. <choice>
+D. <seg>
+Risposta corretta: A
+
+DOMANDA 36
+Quale elemento TEI contiene lo scioglimento di un'abbreviazione?
+A. <abbr>
+B. <expan>
+C. <note>
+D. <ex>
+Risposta corretta: B
+
+DOMANDA 37
+Quale elemento TEI codifica il nome di un'organizzazione?
+A. <org>
+B. <orgName>
+C. <name>
+D. <resp>
+Risposta corretta: B
+
+DOMANDA 38
+Quale elemento TEI codifica un evento (ad esempio una battaglia, un concerto)?
+A. <event>
+B. <incident>
+C. <occurrence>
+D. <happening>
+Risposta corretta: A
+
+DOMANDA 39
+Quale elemento TEI codifica un riferimento bibliografico semplice?
+A. <bibl>
+B. <ref>
+C. <cit>
+D. <note>
+Risposta corretta: A
+
+DOMANDA 40
+Quale elemento TEI codifica una citazione bibliografica strutturata (con autore, titolo, ecc.)?
+A. <biblStruct>
+B. <biblFull>
+C. <listBibl>
+D. <sourceDesc>
+Risposta corretta: A
+
+DOMANDA 41
+In XML, quale di queste affermazioni è sempre vera per un documento ben formato?
+A. Deve avere un solo elemento radice
+B. Deve contenere almeno un attributo
+C. Deve iniziare con un commento
+D. Deve usare solo tag TEI
+Risposta corretta: A
+
+DOMANDA 42
+Quale di questi è un commento XML scritto correttamente?
+A. <!-- questo è un commento -->
+B. <! questo è un commento >
+C. <comment>questo è un commento</comment>
+D. // questo è un commento
+Risposta corretta: A
+
+DOMANDA 43
+Quale di questi caratteri deve essere sempre "escape-ato" (sostituito con un'entità) nel contenuto testuale XML?
+A. &
+B. a
+C. _
+D. -
+Risposta corretta: A
+
+DOMANDA 44
+Cosa accade se in un elemento XML sono presenti due attributi con lo stesso nome?
+A. Il documento non è ben formato
+B. Viene usato solo il primo attributo
+C. Viene usato solo l'ultimo attributo
+D. È consentito solo se i valori coincidono
+Risposta corretta: A
+
+DOMANDA 45
+I nomi dei tag XML sono sensibili alle maiuscole/minuscole (case-sensitive)?
+A. Sì, <Tag> e <tag> sono diversi
+B. No, <Tag> e <tag> sono equivalenti
+C. Dipende dal parser
+D. Solo gli attributi sono case-sensitive
+Risposta corretta: A
+
+DOMANDA 46
+Quale dichiarazione XML è corretta per indicare versione ed encoding?
+A. <?xml version="1.0" encoding="UTF-8"?>
+B. <xml version="1.0" charset="UTF-8">
+C. <?xml 1.0 UTF-8 ?>
+D. <?xml encoding="UTF-8"?>
+Risposta corretta: A
+
+DOMANDA 47
+Come si rappresenta correttamente un elemento vuoto in XML?
+A. <tag/>
+B. <tag></>
+C. <tag></tag/>
+D. <tag>
+Risposta corretta: A
+
+DOMANDA 48
+Quale elemento TEI racchiude l'intero documento TEI (header e testo)?
+A. <TEI>
+B. <text>
+C. <teiHeader>
+D. <body>
+Risposta corretta: A
+
+DOMANDA 49
+Quale elemento TEI contiene uno o più testi (ad esempio in un'edizione con più opere)?
+A. <text>
+B. <group>
+C. <body>
+D. <div>
+Risposta corretta: B
+
+DOMANDA 50
+Quale elemento TEI può essere usato per costruire un indice (ad esempio di persone o luoghi)?
+A. <index>
+B. <list>
+C. <table>
+D. <note>
+Risposta corretta: A
+```
